@@ -1,0 +1,14 @@
+{
+  "name": "bootstrap-theme",
+  "version": "1.0.0",
+  "description": "Theme for Bootstrap",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
