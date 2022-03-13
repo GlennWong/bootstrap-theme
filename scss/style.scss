@@ -1,2 +1,32 @@
+$blue: #00A5FF;
+
+$border-radius: 1.5rem 1.5rem 1.5rem 0;
+$border-radius-sm: 1.5rem 1.5rem 1.5rem 0;
+$border-radius-lg: 1.5rem 1.5rem 1.5rem 0;
+
+
+
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
 
+.btn {
+    font-weight: bold;
+}
+
+.btn-primary {
+    color: $white;
+}
+
+.btn-primary:hover {
+    color: $white;
+    background-color: #0092E2;
+    border-color: #0092E2;
+}
+
+.btn-outline-primary {
+    border: 2px solid $primary;
+}
+
+.btn-outline-primary:hover {
+    color: $primary;
+    background-color: #EAF8FF;
+}
